@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encripitador</title>
+</head>
+
+<body>
+    <header>
+        <img class="logoAlura" src="/assets/LogoAlura.png" alt="Logo da Alura">
+    </header>
+
+    <main>
+        <section class="CampoDigitarTexto">
+
+            <textarea class="digitar__texto__principal" placeholder="digite seu texto"></textarea>
+
+            <div class="informacaoUsuario">
+                <img src="/assets/Exclamacao.png" alt="Imagem de exclamação">
+                <h6 class="informacao__usuario__botao">Apenas letras minusculas e sem acento.
+                </h6>
+            </div>
+
+            <div class="botoes">
+                <button class="botao__encripitar" onclick="botaoEncriptar()">Criptografar</button>
+                <button class="botao__desencriptar" onclick="botaoDesencriptar()">Descriptografar</button>
+            </div>
+        </section>
+
+        <section class="campoMensagem">
+            <div class="mensagem__agrupar__texto__Img">
+                <img class="imagem__boneco" src="assets/Boneco.png" alt="Boneco">
+                <img class="imagem__mensagem__boneco" src="/assets/MsgBoneco.png" alt="Mensagem informativa abaixo do bonexo">
+                <textarea class="mensagem"></textarea>
+            </div>
+            <button class="botao__copiar">Copiar</button>
+        </section>
+    </main>
+    <footer class="dev">
+        <p>Desenvolvido por Leandro Walisson</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
